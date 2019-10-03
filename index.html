@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src='//code.jquery.com/jquery-1.8.3.js'></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker3.min.css">
+    <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.min.js"></script>
+
+
+    <title>PlanetExpress</title>
+</head>
+<body class="container">
+
+<div id="block-content">
+    <div class="article">
+        <h1>Planet Express Flight Picker</h1>
+
+        <div class="img" >
+            <img  src="https://images-na.ssl-images-amazon.com/images/I/71igya7q%2BtL._SL1500_.jpg">
+        </div>
+        <br>
+        <label class="p-3 mb-2 bg-gradient-primary text-white" ><h2>Planets</h2>
+            <input list="browsers" name="Planets" /></label>
+        <datalist id="browsers">
+            <option value="Moon">
+            <option value="Uranus">
+            <option value="Venus">
+            <option value="Mercury">
+            <option value="Mars">
+            <option value="Jupiter">
+            <option value="Saturn">
+            <option value="Jupiter">
+        </datalist>
+
+
+        <div class="input-daterange input-group" id="datepicker" >
+            <h1>Depart on</h1>
+            <input type="text" class="input-sm form-control" name="from" placeholder="From date"/>
+            <h1>Return on</h1>
+            <input type="text" class="input-sm form-control" name="to" placeholder="To date"/>
+        </div>
+
+
+    </div>
+</div>
+
+</body>
+
+</html>
